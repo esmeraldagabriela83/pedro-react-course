@@ -52,11 +52,11 @@ const getAnimalComponent=(param) =>{
 
 const getLakeComponent=(nrParam , nameParam , colorParam , imgParam) =>{
   return(
-    <article style={{border:`3px dashed ${colorParam}` , margin:"1em" , padding:"1em"}}>
+    <article style={{border:`3px dashed ${colorParam}` , padding:"1em" , width:"90%" , margin:"1em" , display:"flex" , alignItems:"center" , justifyContent:"center" , flexDirection:"column"}}>
     <div  style={{
       margin:"1em",
-      width:"20em",
-      height:"15em",
+      width:"50%",
+      height:"20em",
       backgroundImage:`url(${imgParam})`,
       backgroundSize:"cover",
       backgroundPosition:"center",

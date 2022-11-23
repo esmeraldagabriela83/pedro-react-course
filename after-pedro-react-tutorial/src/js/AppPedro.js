@@ -117,10 +117,10 @@ divLake.style.padding="1em";
 divLake.style.margin="1em";
 divLake.style.border=`3px dashed ${lakeObj.colorLake}`;
 
-divLake.style.width="20em";
-divLake.style.height="15em";
+divLake.style.width="50%";
+divLake.style.height="20em";
 divLake.style.backgroundImage=`url(${lakeObj.imgLake})`;
-divLake.style.backgroundSize="center";
+divLake.style.backgroundSize="cover";
 divLake.style.backgroundPosition="center";
 divLake.style.backgroundRepeat="no-repeat";
 
@@ -134,7 +134,12 @@ return divLake;
 //---------------
 
 const articleLake=document.createElement("article");
-articleLake.style.border="3px solid gray";
+articleLake.style.border="5px solid gray";
+articleLake.style.width="90%";
+articleLake.style.display="flex";
+articleLake.style.alignItems="center";
+articleLake.style.justifyContent="center";
+articleLake.style.flexDirection="column";
 
 
 lakeDivs.forEach((lakeDivEl , index) =>{
@@ -142,10 +147,12 @@ lakeDivs.forEach((lakeDivEl , index) =>{
 })
 const lakeSection=document.getElementById('lakeSection');
 lakeSection.appendChild(articleLake);
+lakeSection.style.border="5px solid gold";
+lakeSection.style.width="99%";
 lakeSection.style.display="flex";
-lakeSection.style.justifyContent="center";
 lakeSection.style.alignItems="center";
-lakeSection.style.width="100%";
+lakeSection.style.justifyContent="center";
+lakeSection.style.flexDirection="column";
 }
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

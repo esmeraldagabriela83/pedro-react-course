@@ -1,12 +1,19 @@
 import React, {useState, useEffect} from "react";
 import './App.css';
 
+import AppWriteNameCat from "./js/AppWriteNameCat.js";
 import AppPedroSecond from "./js/AppPedroSecond.js";
 import AppPedroGenerateJSX from "./js/AppPedroGenerateJSX.js";
 import AppPedroGenerateJSXFunctionComponent from "./js/AppPedroGenerateJSXFunctionComponent.js";
 import AppJobPedroHomework from "./js/AppJobPedroHomework.js";
 
 import AppTernaryOperators from "./js/AppTernaryOperators.js";
+import AppConditionalRenderingJSX from "./js/AppConditionalRenderingJSX";
+import AppConditionalRenderingAndBoolean from "./js/AppConditionalRenderingAndBoolean.js";
+import AppConditionalRenderingBooleanContent from "./js/AppConditionalRenderingBooleanContent";
+
+import AppLists from "./js/AppLists.js";
+import AppListsAfterPedro from "./js/AppListsAfterPedro.js";
 
 import logo from './logo.svg';
 //import './App.css';
@@ -35,7 +42,7 @@ import logo from './logo.svg';
 // <h1>function component is : {propText}</h1>
 // </div>
 
-// ternary operators (allows me to write if statements), lists in React
+// ternary operators (allows me to write if statements // conditional rendering), lists in React
 
 //-----------------------------------------------------------------------------
 
@@ -161,7 +168,7 @@ const dogAffection=
 </div>
 
 <div style={myStyleCenter}>
-<img src={dogSrcImg} alt="lupuImg" style={{width:"50%" , border:""}}/>
+<img src={dogSrcImg} alt="lupuImg" style={{width:"50%" , border:"3px solid pink"}}/>
 </div>
 
 <div style={myStyleCenter}>
@@ -199,13 +206,19 @@ const dogAffection=
 
 </section>
 
-
+<AppWriteNameCat propColor={"peru"} propNr={79} propText={"AppWriteNameCat"}/>
 <AppPedroSecond propColor={"gold"} propNr={79} propText={"AppPedroSecond"}/>
 <AppPedroGenerateJSX propColor={"cornflowerblue"} propNr={49} propText={"AppPedroGenerateJSX"}/>
 <AppPedroGenerateJSXFunctionComponent propColor={"magenta"} propNr={500} propText={"AppPedroGenerateJSXFunctionComponent"}/>
 <AppJobPedroHomework  propColor={"DarkSeaGreen"} propNr={50} propText={"AppJobPedroHomework"}/>
 
 <AppTernaryOperators  propColor={"DarkSlateGray"} propNr={50} propText={"AppTernaryOperators"}/>
+<AppConditionalRenderingJSX  propColor={"Brown "} propNr={500} propText={"AppConditionalRenderingJSX"}/>
+<AppConditionalRenderingAndBoolean  propColor={"magenta "} propNr={530} propText={"AppConditionalRenderingAndBoolean"}/>
+<AppConditionalRenderingBooleanContent  propColor={"MediumVioletRed"} propNr={570} propText={"AppConditionalRenderingBooleanContent"}/>
+
+<AppLists  propColor={"Maroon"} propNr={570} propText={"AppLists"}/>
+<AppListsAfterPedro  propColor={"MediumSlateBlue "} propNr={570} propText={"AppListsAfterPedro"}/>
 
 </>  );
 }
