@@ -14,6 +14,12 @@ import AppConditionalRenderingBooleanContent from "./js/AppConditionalRenderingB
 
 import AppLists from "./js/AppLists.js";
 import AppListsAfterPedro from "./js/AppListsAfterPedro.js";
+import AppListsAfterPedroPlanets from "./js/AppListsAfterPedroPlanets.js";
+import AppListsPlanetsPedroSolution from "./js/AppListsPlanetsPedroSolution.js";
+import AppStatePedro from "./js/AppStatePedro.js";
+import AppInputPedro from "./js/AppInputPedro.js";
+import AppShowInputValPedro from "./js/AppShowInputValPedro.js";
+import AppShowHidePedro from "./js/AppShowHidePedro.js";
 
 import logo from './logo.svg';
 //import './App.css';
@@ -43,6 +49,8 @@ import logo from './logo.svg';
 // </div>
 
 // ternary operators (allows me to write if statements // conditional rendering), lists in React
+
+//module 4 states in react useState Hook
 
 //-----------------------------------------------------------------------------
 
@@ -219,6 +227,16 @@ const dogAffection=
 
 <AppLists  propColor={"Maroon"} propNr={570} propText={"AppLists"}/>
 <AppListsAfterPedro  propColor={"MediumSlateBlue "} propNr={570} propText={"AppListsAfterPedro"}/>
+
+<AppListsAfterPedroPlanets  propColor={"Plum"} propNr={500} propText={"AppListsAfterPedroPlanets"}/>
+<AppListsPlanetsPedroSolution  propColor={"RosyBrown"} propNr={500} propText={"AppListsPlanetsPedroSolution"}/>
+
+<AppStatePedro  propColor={"Turquoise"} propNr={500} propText={"AppStatePedro"} />
+<AppInputPedro  propColor={"SandyBrown"} propNr={500} propText={"AppInputPedro"} />
+<AppShowInputValPedro  propColor={"SteelBlue"} propNr={500} propText={"AppShowInputValPedro"} />
+
+<AppShowHidePedro  propColor={"SeaGreen"} propNr={500} propText={"AppShowHidePedro"} />
+
 
 </>  );
 }
