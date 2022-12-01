@@ -20,6 +20,16 @@ import AppStatePedro from "./js/AppStatePedro.js";
 import AppInputPedro from "./js/AppInputPedro.js";
 import AppShowInputValPedro from "./js/AppShowInputValPedro.js";
 import AppShowHidePedro from "./js/AppShowHidePedro.js";
+import AppChangeColorPedro from "./js/AppChangeColorPedro.js";
+import AppHomeworkState from "./js/AppHomeworkState.js";
+import AppPedroHomeworkState from "./js/AppPedroHomeworkState.js";
+import AppCataCounterState1 from "./js/AppCataCounterState1.js";
+import AppCataCounterState2 from "./js/AppCataCounterState2.js";
+import AppCataCounterState3 from "./js/AppCataCounterState3.js";
+import AppToDoListPedroObj from "./js/AppToDoListPedroObj.js";
+
+import AppToDoListPedro from "./js/AppToDoListPedro.js";
+
 
 import logo from './logo.svg';
 //import './App.css';
@@ -51,6 +61,8 @@ import logo from './logo.svg';
 // ternary operators (allows me to write if statements // conditional rendering), lists in React
 
 //module 4 states in react useState Hook
+
+//module 5 CRUD in REACT to do list
 
 //-----------------------------------------------------------------------------
 
@@ -236,6 +248,16 @@ const dogAffection=
 <AppShowInputValPedro  propColor={"SteelBlue"} propNr={500} propText={"AppShowInputValPedro"} />
 
 <AppShowHidePedro  propColor={"SeaGreen"} propNr={500} propText={"AppShowHidePedro"} />
+<AppChangeColorPedro  propColor={"DarkGoldenRod"} propNr={500} propText={"AppChangeColorPedro"} />
+<AppHomeworkState  propColor={"Cyan"} propNr={500} propText={"AppHomeworkState"} />
+<AppPedroHomeworkState  propColor={"DarkOliveGreen"} propNr={500} propText={"AppPedroHomeworkState"} />
+
+<AppCataCounterState1  propColor={"Chocolate"} propNr={580} propText={"AppCataCounterState1"} />
+<AppCataCounterState2  propColor={"DarkMagenta"} propNr={580} propText={"AppCataCounterState2"} />
+<AppCataCounterState3  propColor={"DarkSeaGreen"} propNr={580} propText={"AppCataCounterState3"} />
+
+<AppToDoListPedro   propColor={"DarkSalmon"} propNr={300} propText={"AppToDoListPedro"} />
+<AppToDoListPedroObj   propColor={"deeppink"} propNr={300} propText={"AppToDoListPedroObj"} />
 
 
 </>  );
