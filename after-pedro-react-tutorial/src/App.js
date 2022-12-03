@@ -27,9 +27,20 @@ import AppCataCounterState1 from "./js/AppCataCounterState1.js";
 import AppCataCounterState2 from "./js/AppCataCounterState2.js";
 import AppCataCounterState3 from "./js/AppCataCounterState3.js";
 import AppToDoListPedroObj from "./js/AppToDoListPedroObj.js";
-
+import AppToDoListPedroObjWithComponents from "./js/AppToDoListPedroObjWithComponents.js";
 import AppToDoListPedro from "./js/AppToDoListPedro.js";
 
+import AppShowTextPedro from "./js/AppShowTextPedro.js";
+import AppUseEffect from "./js/AppUseEffect.js";
+import AppShowTextPedro2 from "./js/AppShowTextPedro2.js";
+
+import InteractiveDiv from "./js/InteractiveDiv.js";
+import AppBoxDiscord from "./js/AppBoxDiscord.js";
+import AppUserInfo from "./js/AppUserInfo.js";
+import App2users from "./js/App2users.js";
+import AppComponentTitle from "./js/AppComponentTitle.js";
+
+import AppGenerateCatFact from "./js/AppGenerateCatFact.js";
 
 import logo from './logo.svg';
 //import './App.css';
@@ -63,6 +74,10 @@ import logo from './logo.svg';
 //module 4 states in react useState Hook
 
 //module 5 CRUD in REACT to do list
+
+//module 6 Component lifecycle , useEffect
+
+//module 7 fetching data from API`S in React
 
 //-----------------------------------------------------------------------------
 
@@ -258,6 +273,20 @@ const dogAffection=
 
 <AppToDoListPedro   propColor={"DarkSalmon"} propNr={300} propText={"AppToDoListPedro"} />
 <AppToDoListPedroObj   propColor={"deeppink"} propNr={300} propText={"AppToDoListPedroObj"} />
+<AppToDoListPedroObjWithComponents   propColor={"Chocolate"} propNr={300} propText={"AppToDoListPedroObjWithComponents"} />
+
+<AppShowTextPedro   propColor={"DodgerBlue"} propNr={305} propText={"AppShowTextPedro"} />
+<p>useEffect hook 13 si 20 05 2022</p>
+<AppUseEffect   propColor={"pink"} propNr={305} propText={"AppUseEffect"} />
+<AppShowTextPedro2   propColor={"GoldenRod"} propNr={305} propText={"AppShowTextPedro2"} />
+<InteractiveDiv   propColor={"DarkCyan"} propNr={305} propText={"InteractiveDiv"} />
+<AppBoxDiscord   propColor={"olive"} propNr={305} propText={"AppBoxDiscord"} />
+<AppUserInfo   propColor={"DarkKhaki"} propNr={305} propText={"AppUserInfo"} />
+<App2users   propColor={"forestgreen"} propNr={315} propText={"App2users"} />
+<AppComponentTitle   propColor={"Darkorange"} propNr={315} propText={"AppComponentTitle"} />
+
+
+<AppGenerateCatFact   propColor={"indigo"} propNr={305} propText={"AppGenerateCatFact"} />
 
 
 </>  );
