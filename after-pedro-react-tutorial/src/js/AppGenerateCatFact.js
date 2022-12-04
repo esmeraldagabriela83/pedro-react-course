@@ -38,7 +38,7 @@ const [catFact , setCatFact]=useState("");
 //
 // } , []);
 
-//----------------
+//-----------------I make a request to another website and fetch data // the fetch function  returns a promise
 
 const handleCatFact=(event) =>{
 
@@ -55,6 +55,11 @@ const handleCatFact=(event) =>{
 
 }
 
+useEffect(() =>{
+  //apel functiei aplicata pe buton
+  handleCatFact();
+} , []);
+
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -70,7 +75,7 @@ return(
 <button onClick={handleCatFact}>generate cat fact</button>
 
 
-<p><strong>fact about cats : </strong>{catFact}</p>
+<p><strong style={{color:"tomato"}}>fact about cats : </strong>{catFact}</p>
 
     </article>
 

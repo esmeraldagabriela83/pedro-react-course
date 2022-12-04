@@ -41,6 +41,9 @@ import App2users from "./js/App2users.js";
 import AppComponentTitle from "./js/AppComponentTitle.js";
 
 import AppGenerateCatFact from "./js/AppGenerateCatFact.js";
+import AppAxiosGenerateCatFact from "./js/AppAxiosGenerateCatFact.js";
+import AppAxiosPredictAge from "./js/AppAxiosPredictAge.js";
+import AppAxiosPredictAgeObj from "./js/AppAxiosPredictAgeObj.js";
 
 import logo from './logo.svg';
 //import './App.css';
@@ -78,6 +81,8 @@ import logo from './logo.svg';
 //module 6 Component lifecycle , useEffect
 
 //module 7 fetching data from API`S in React
+
+//module 8 routes in react React Router Dom
 
 //-----------------------------------------------------------------------------
 
@@ -285,8 +290,14 @@ const dogAffection=
 <App2users   propColor={"forestgreen"} propNr={315} propText={"App2users"} />
 <AppComponentTitle   propColor={"Darkorange"} propNr={315} propText={"AppComponentTitle"} />
 
-
+<p>API FETCH AXIOS</p>
 <AppGenerateCatFact   propColor={"indigo"} propNr={305} propText={"AppGenerateCatFact"} />
+<AppAxiosGenerateCatFact   propColor={"indigo"} propNr={305} propText={"AppAxiosGenerateCatFact"} />
+<AppAxiosPredictAge   propColor={"BurlyWood"} propNr={305} propText={"AppAxiosPredictAge"} />
+<AppAxiosPredictAgeObj   propColor={"Crimson"} propNr={305} propText={"AppAxiosPredictAgeObj"} />
+
+
+
 
 
 </>  );
